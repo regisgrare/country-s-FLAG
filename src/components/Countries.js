@@ -17,7 +17,6 @@ const Countries = () => {
             <ul className="radio-container">
                 <input type="range" min="1" max="250" defaultValue={rangeValue} onChange={(e) => setRangeValue(e.target.value)} />
 
-
                 {radios.map((continent) =>
                     <li>
                         <input
